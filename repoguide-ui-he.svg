@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="960" viewBox="0 0 1440 960">
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9B8CFF"/>
+      <stop offset="1" stop-color="#5EEAD4"/>
+    </linearGradient>
+    <linearGradient id="button" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8B7CFF"/>
+      <stop offset="1" stop-color="#6F8CFF"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#020617" flood-opacity=".28"/>
+    </filter>
+    <style>
+      text { font-family: Inter, "Segoe UI", Arial, sans-serif; fill: #E8ECF7; }
+      .muted { fill: #8994AC; }
+      .dim { fill: #65718B; }
+      .small { font-size: 12px; }
+      .label { font-size: 11px; font-weight: 700; letter-spacing: 1.15px; }
+      .body { font-size: 14px; }
+      .title { font-size: 21px; font-weight: 650; }
+    </style>
+  </defs>
+
+  <rect width="1440" height="960" rx="22" fill="#080D18"/>
+  <rect x="1" y="1" width="1438" height="958" rx="21" fill="none" stroke="#29334A"/>
+
+  <!-- Top bar -->
+  <rect x="1" y="1" width="1438" height="70" rx="21" fill="#0C1322"/>
+  <path d="M1 70H1439" stroke="#273149"/>
+  <circle cx="1397" cy="35" r="17" fill="#293451"/>
+  <text x="1397" y="39" text-anchor="middle" font-size="11" font-weight="700">EL</text>
+  <path d="m1363 33-4 4-4-4" fill="none" stroke="#98A3BA" stroke-width="1.5"/>
+  <rect x="1180" y="22" width="112" height="27" rx="13.5" fill="#102820" stroke="#20523E"/>
+  <circle cx="1197" cy="35.5" r="4" fill="#47D7A2"/>
+  <text x="1209" y="40" font-size="11" fill="#8CE6C1">GitHub מחובר</text>
+  <path d="M1160 21v29" stroke="#263148"/>
+  <rect x="1112" y="22" width="26" height="26" rx="8" fill="#1C2940"/>
+  <text x="1125" y="40" text-anchor="middle" font-size="10" font-weight="700" fill="#AEB8D0">EL</text>
+  <text x="1102" y="34" text-anchor="end" class="small" font-weight="600">מרחב אישי</text>
+  <text x="1102" y="50" text-anchor="end" font-size="10" class="muted">ריפוזיטורי אחד מחובר</text>
+  <rect x="1378" y="17" width="38" height="38" rx="12" fill="url(#brand)"/>
+  <path d="M1388 29h8a5 5 0 0 1 0 10h-8v-10Zm0 10h9a5 5 0 0 1 0 10h-9V39Z" fill="#101426"/>
+  <text x="1367" y="36" text-anchor="end" font-size="16" font-weight="700">עוזר קוד</text>
+  <text x="1367" y="53" text-anchor="end" class="small muted">מענה חכם על בסיס הקוד שלך</text>
+
+  <!-- Right navigation, mirrored for RTL -->
+  <rect x="1181" y="71" width="258" height="888" fill="#0B1220"/>
+  <path d="M1181 71v888" stroke="#273149"/>
+  <rect x="1200" y="91" width="222" height="42" rx="10" fill="#121C2E" stroke="#27334B"/>
+  <rect x="1391" y="101" width="22" height="22" rx="7" fill="#25324B"/>
+  <path d="M1397 108h10M1397 112h10M1400 116h7" stroke="#A8B5D2" stroke-width="1.3" stroke-linecap="round"/>
+  <text x="1382" y="109" text-anchor="end" class="small" font-weight="600">payments-api</text>
+  <text x="1382" y="123" text-anchor="end" font-size="10" class="muted">ארגון acme</text>
+  <path d="m1218 108-4 4 4 4" fill="none" stroke="#7D89A2" stroke-width="1.4"/>
+  <rect x="1200" y="149" width="222" height="38" rx="9" fill="#8174FF"/>
+  <path d="M1407 168h-12M1401 162v12" stroke="#fff" stroke-width="1.7" stroke-linecap="round"/>
+  <text x="1385" y="173" text-anchor="end" font-size="12" font-weight="650" fill="#fff">שיחה חדשה</text>
+  <rect x="1200" y="202" width="222" height="36" rx="8" fill="#0D1728" stroke="#253149"/>
+  <circle cx="1406" cy="218" r="5" fill="none" stroke="#77839B" stroke-width="1.4"/>
+  <path d="m1402 222-4 4" stroke="#77839B" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="1385" y="222" text-anchor="end" class="small muted">חיפוש בשיחות</text>
+  <text x="1418" y="271" text-anchor="end" class="label dim">שיחות אחרונות</text>
+  <rect x="1195" y="284" width="232" height="45" rx="8" fill="#182239"/>
+  <rect x="1424.5" y="284" width="2.5" height="45" rx="1.2" fill="#8B7CFF"/>
+  <path d="M1411 301h-13M1411 306h-10M1411 311h-12" stroke="#A6B0C7" stroke-width="1.3" stroke-linecap="round"/>
+  <text x="1387" y="303" text-anchor="end" font-size="11.5" font-weight="600">אימות refresh token</text>
+  <text x="1387" y="318" text-anchor="end" font-size="10" class="muted">היום · 12:42</text>
+  <path d="M1411 350h-13M1411 355h-10M1411 360h-12" stroke="#65718B" stroke-width="1.3" stroke-linecap="round"/>
+  <text x="1387" y="352" text-anchor="end" class="small muted">איך מוגנות נקודות הקצה?</text>
+  <text x="1387" y="367" text-anchor="end" font-size="10" class="dim">אתמול</text>
+  <path d="M1411 399h-13M1411 404h-10M1411 409h-12" stroke="#65718B" stroke-width="1.3" stroke-linecap="round"/>
+  <text x="1387" y="401" text-anchor="end" class="small muted">איפה נטענת ההגדרות?</text>
+  <text x="1387" y="416" text-anchor="end" font-size="10" class="dim">18 בנובמבר</text>
+  <path d="M1202 900h216" stroke="#273149"/>
+  <circle cx="1400" cy="927" r="14" fill="#26324B"/>
+  <text x="1400" y="931" text-anchor="middle" font-size="9" font-weight="700">EL</text>
+  <text x="1377" y="925" text-anchor="end" class="small" font-weight="600">Eli</text>
+  <text x="1377" y="940" text-anchor="end" font-size="10" class="muted">חשבון אישי</text>
+  <circle cx="1207" cy="927" r="1.7" fill="#9AA5BB"/>
+  <circle cx="1213" cy="927" r="1.7" fill="#9AA5BB"/>
+  <circle cx="1219" cy="927" r="1.7" fill="#9AA5BB"/>
+
+  <!-- Main conversation, RTL -->
+  <rect x="300" y="71" width="881" height="888" fill="#0D1423"/>
+  <path d="M300 151H1181" stroke="#222D43"/>
+  <text x="1148" y="108" text-anchor="end" class="small muted">מרחב עבודה</text>
+  <path d="m1084 103-3 3 3 3" fill="none" stroke="#68758E" stroke-width="1.2"/>
+  <text x="1071" y="108" text-anchor="end" class="small muted">payments-api</text>
+  <rect x="1080" y="119" width="60" height="20" rx="6" fill="#151F32"/>
+  <circle cx="1128" cy="129" r="3" fill="#A99EFF"/>
+  <text x="1119" y="133" text-anchor="end" font-size="10" class="muted">main</text>
+  <text x="1063" y="134" text-anchor="end" font-size="10" class="dim">שיחה · היום</text>
+  <rect x="314" y="101" width="132" height="30" rx="8" fill="#121F22" stroke="#28423D"/>
+  <circle cx="330" cy="116" r="3.5" fill="#49D6A3"/>
+  <text x="438" y="120" text-anchor="end" font-size="10.5" fill="#8EE4C2">האינדקס מעודכן</text>
+
+  <text x="1148" y="185" text-anchor="end" class="title">איך מתבצע אימות של refresh token?</text>
+  <text x="1148" y="207" text-anchor="end" class="small muted">תשובות המבוססות על קוד הריפוזיטורי</text>
+
+  <rect x="312" y="229" width="636" height="59" rx="14" fill="#19243A" stroke="#2B3852"/>
+  <text x="928" y="263" text-anchor="end" class="body">איך ה-API מאמת refresh token?</text>
+  <circle cx="930" cy="250" r="10" fill="#33415F"/>
+  <text x="930" y="254" text-anchor="middle" font-size="8" font-weight="700">EL</text>
+
+  <rect x="1122" y="316" width="26" height="26" rx="8" fill="url(#brand)"/>
+  <path d="M1129 323h6a3 3 0 0 1 0 6h-6v-6Zm0 6h7a3 3 0 0 1 0 6h-7v-6Z" fill="#101426"/>
+  <text x="1114" y="328" text-anchor="end" class="small" font-weight="650">עוזר קוד</text>
+  <text x="1045" y="328" text-anchor="end" font-size="10" class="muted">· תשובה מתוך הקוד</text>
+  <text x="1148" y="367" text-anchor="end" class="body">הבדיקה מתבצעת ב־</text>
+  <text x="1015" y="367" text-anchor="end" class="body" fill="#B8ADFF" font-family="Consolas, monospace">JwtAuthGuard</text>
+  <text x="936" y="367" text-anchor="end" class="body">לפני שהבקשה מגיעה ל־</text>
+  <text x="804" y="367" text-anchor="end" class="body">controller.</text>
+  <text x="1148" y="391" text-anchor="end" class="body">ה-guard מאמת את חתימת ה-token ואת תוקפו, ואז מצרף</text>
+  <text x="1148" y="415" text-anchor="end" class="body">את פרטי המשתמש שפוענחו אל הבקשה.</text>
+
+  <rect x="558" y="438" width="590" height="54" rx="9" fill="#111B2D" stroke="#2B3852"/>
+  <rect x="1121" y="451" width="27" height="27" rx="7" fill="#19263A"/>
+  <path d="M1128 457h8l3 3v11h-11v-14Zm7 0v4h4" fill="none" stroke="#A6B4D2" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="1108" y="461" text-anchor="end" font-size="11" font-family="Consolas, monospace" fill="#BFB7FF">src/auth/jwt-auth.guard.ts</text>
+  <text x="1108" y="478" text-anchor="end" font-size="10" class="muted">שורות 18–42</text>
+  <path d="m573 459-4 4 4 4" fill="none" stroke="#74819A" stroke-width="1.4"/>
+
+  <text x="1148" y="531" text-anchor="end" class="body">בנוסף, נבדק מצב החשבון. אם ה-token פג תוקף או אינו תקין,</text>
+  <text x="1148" y="555" text-anchor="end" class="body">ה-guard דוחה את הבקשה ומחזיר שגיאת הרשאה.</text>
+  <rect x="558" y="578" width="590" height="54" rx="9" fill="#111B2D" stroke="#2B3852"/>
+  <rect x="1121" y="591" width="27" height="27" rx="7" fill="#19263A"/>
+  <path d="M1128 597h8l3 3v11h-11v-14Zm7 0v4h4" fill="none" stroke="#A6B4D2" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="1108" y="601" text-anchor="end" font-size="11" font-family="Consolas, monospace" fill="#BFB7FF">src/auth/auth.service.ts</text>
+  <text x="1108" y="618" text-anchor="end" font-size="10" class="muted">שורות 74–91</text>
+  <path d="m573 599-4 4 4 4" fill="none" stroke="#74819A" stroke-width="1.4"/>
+  <rect x="977" y="651" width="171" height="26" rx="13" fill="#111A2A" stroke="#26334A"/>
+  <circle cx="1133" cy="664" r="4" fill="#51D8A5"/>
+  <text x="1123" y="668" text-anchor="end" font-size="10" class="muted">2 מקורות · main @ 8f2c1a</text>
+
+  <rect x="312" y="710" width="836" height="126" rx="15" fill="#111A2A" stroke="#34415A" filter="url(#shadow)"/>
+  <text x="1122" y="743" text-anchor="end" class="body muted">שאל שאלה על הקוד...</text>
+  <path d="M336 760H1124" stroke="#27334A"/>
+  <rect x="1121" y="785" width="27" height="27" rx="8" fill="#19243A"/>
+  <path d="M1128 791h9M1128 796h9M1131 801h6" stroke="#9DAAC4" stroke-width="1.2" stroke-linecap="round"/>
+  <text x="1110" y="803" text-anchor="end" font-size="10" class="muted">תשובות מבוססות על קוד שאונדקס בלבד</text>
+  <rect x="336" y="782" width="38" height="32" rx="9" fill="url(#button)"/>
+  <path d="m348 798 14-7-5 14-2-5-7-2Z" fill="none" stroke="#fff" stroke-width="1.3" stroke-linejoin="round"/>
+  <text x="1148" y="862" text-anchor="end" font-size="10" class="dim">ה-AI עלול לטעות. מומלץ לוודא את התשובות מול המקורות המקושרים.</text>
+
+  <!-- Repository details on left -->
+  <rect x="1" y="71" width="299" height="888" fill="#0B1220"/>
+  <path d="M300 71v888" stroke="#273149"/>
+  <text x="276" y="108" text-anchor="end" font-size="13" font-weight="650">פרטי הריפוזיטורי</text>
+  <path d="M26 125H276" stroke="#222D43"/>
+  <rect x="241" y="145" width="34" height="34" rx="10" fill="#202C43"/>
+  <path d="M249 155h9l5 5h-14v11h19v-11" fill="none" stroke="#B4C0D8" stroke-width="1.4" stroke-linejoin="round"/>
+  <text x="232" y="158" text-anchor="end" font-size="12" font-weight="650">acme / payments-api</text>
+  <text x="232" y="175" text-anchor="end" font-size="10" class="muted">פרטי · TypeScript</text>
+  <rect x="26" y="197" width="249" height="115" rx="11" fill="#101A2B" stroke="#26334A"/>
+  <text x="259" y="220" text-anchor="end" class="label muted">סטטוס אינדקס</text>
+  <circle cx="258" cy="243" r="4" fill="#49D6A3"/>
+  <text x="246" y="247" text-anchor="end" class="small" font-weight="600">מעודכן</text>
+  <text x="259" y="271" text-anchor="end" font-size="10" class="muted">אונדקס לפני 12 דקות</text>
+  <text x="259" y="290" text-anchor="end" font-size="10" class="dim">main · 8f2c1a7</text>
+  <rect x="26" y="322" width="249" height="35" rx="9" fill="#172239" stroke="#34415B"/>
+  <path d="M260 340a7 7 0 1 0-2 5M261 335v5h-5" fill="none" stroke="#B9B2FF" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="245" y="344" text-anchor="end" font-size="11" font-weight="600">רענון האינדקס</text>
+  <text x="276" y="393" text-anchor="end" class="label dim">פרטי ריפוזיטורי</text>
+  <text x="276" y="421" text-anchor="end" font-size="10" class="muted">Branch ברירת מחדל</text>
+  <text x="39" y="421" font-size="10" font-family="Consolas, monospace">main</text>
+  <path d="M26 433H276" stroke="#202B40"/>
+  <text x="276" y="456" text-anchor="end" font-size="10" class="muted">קבצים באינדקס</text>
+  <text x="39" y="456" font-size="10">1,284</text>
+  <path d="M26 468H276" stroke="#202B40"/>
+  <text x="276" y="491" text-anchor="end" font-size="10" class="muted">הרשאה</text>
+  <rect x="26" y="477" width="64" height="21" rx="10.5" fill="#142D29"/>
+  <text x="58" y="491" text-anchor="middle" font-size="9" fill="#81DCC0">קריאה בלבד</text>
+  <text x="276" y="538" text-anchor="end" class="label dim">שאלות מומלצות</text>
+  <rect x="26" y="552" width="249" height="44" rx="9" fill="#101A2B" stroke="#222E43"/>
+  <text x="259" y="570" text-anchor="end" font-size="10.5" class="muted">איפה מתבצע אימות משתמשים?</text>
+  <path d="m43 568-4 4 4 4" fill="none" stroke="#707C94" stroke-width="1.2"/>
+  <rect x="26" y="605" width="249" height="44" rx="9" fill="#101A2B" stroke="#222E43"/>
+  <text x="259" y="623" text-anchor="end" font-size="10.5" class="muted">איך מעוצבות שגיאות API?</text>
+  <path d="m43 621-4 4 4 4" fill="none" stroke="#707C94" stroke-width="1.2"/>
+  <rect x="26" y="658" width="249" height="44" rx="9" fill="#101A2B" stroke="#222E43"/>
+  <text x="259" y="676" text-anchor="end" font-size="10.5" class="muted">סכם את מודל הנתונים</text>
+  <path d="m43 674-4 4 4 4" fill="none" stroke="#707C94" stroke-width="1.2"/>
+  <rect x="26" y="892" width="249" height="43" rx="9" fill="#101A2B" stroke="#26334A"/>
+  <circle cx="258" cy="913" r="4" fill="#55D9A6"/>
+  <text x="246" y="910" text-anchor="end" font-size="10" font-weight="600">מצב קריאה בלבד</text>
+  <text x="246" y="924" text-anchor="end" font-size="9" class="muted">פקודות הפרויקט לא מורצות</text>
+</svg>

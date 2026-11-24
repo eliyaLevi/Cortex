@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="960" viewBox="0 0 1440 960">
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9B8CFF"/>
+      <stop offset="1" stop-color="#5EEAD4"/>
+    </linearGradient>
+    <linearGradient id="button" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8B7CFF"/>
+      <stop offset="1" stop-color="#6F8CFF"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#020617" flood-opacity=".28"/>
+    </filter>
+    <style>
+      text { font-family: Inter, "Segoe UI", Arial, sans-serif; fill: #E8ECF7; }
+      .muted { fill: #8994AC; }
+      .dim { fill: #65718B; }
+      .small { font-size: 12px; }
+      .label { font-size: 11px; font-weight: 700; letter-spacing: 1.15px; }
+      .body { font-size: 14px; }
+      .title { font-size: 21px; font-weight: 650; }
+      .stroke { stroke: #2A344B; }
+    </style>
+  </defs>
+
+  <rect width="1440" height="960" rx="22" fill="#080D18"/>
+  <rect x="1" y="1" width="1438" height="958" rx="21" fill="none" stroke="#29334A"/>
+
+  <!-- Top bar -->
+  <rect x="1" y="1" width="1438" height="70" rx="21" fill="#0C1322"/>
+  <path d="M1 70H1439" stroke="#273149"/>
+  <rect x="22" y="17" width="38" height="38" rx="12" fill="url(#brand)"/>
+  <path d="M32 29h8a5 5 0 0 1 0 10h-8v-10Zm0 10h9a5 5 0 0 1 0 10h-9V39Z" fill="#101426"/>
+  <text x="72" y="36" font-size="16" font-weight="700">RepoGuide</text>
+  <text x="72" y="53" class="small muted">AI codebase assistant</text>
+  <path d="M244 21v29" stroke="#263148"/>
+  <rect x="270" y="22" width="26" height="26" rx="8" fill="#1C2940"/>
+  <text x="283" y="40" text-anchor="middle" font-size="10" font-weight="700" fill="#AEB8D0">EL</text>
+  <text x="306" y="34" class="small" font-weight="600">Personal workspace</text>
+  <text x="306" y="50" font-size="10" class="muted">1 repository connected</text>
+  <rect x="1183" y="22" width="112" height="27" rx="13.5" fill="#102820" stroke="#20523E"/>
+  <circle cx="1200" cy="35.5" r="4" fill="#47D7A2"/>
+  <text x="1212" y="40" font-size="11" fill="#8CE6C1">GitHub connected</text>
+  <circle cx="1330" cy="35" r="17" fill="#293451"/>
+  <text x="1330" y="39" text-anchor="middle" font-size="11" font-weight="700">EL</text>
+  <path d="m1360 33 4 4 4-4" fill="none" stroke="#98A3BA" stroke-width="1.5"/>
+
+  <!-- Left navigation -->
+  <rect x="1" y="71" width="258" height="888" fill="#0B1220"/>
+  <path d="M259 71v888" stroke="#273149"/>
+  <rect x="18" y="91" width="222" height="42" rx="10" fill="#121C2E" stroke="#27334B"/>
+  <rect x="29" y="101" width="22" height="22" rx="7" fill="#25324B"/>
+  <path d="M35 108h10M35 112h10M35 116h7" stroke="#A8B5D2" stroke-width="1.3" stroke-linecap="round"/>
+  <text x="60" y="109" class="small" font-weight="600">payments-api</text>
+  <text x="60" y="123" font-size="10" class="muted">acme organization</text>
+  <path d="m221 108 4 4 4-4" fill="none" stroke="#7D89A2" stroke-width="1.4"/>
+  <rect x="18" y="149" width="222" height="38" rx="9" fill="#8174FF"/>
+  <path d="M33 168h12M39 162v12" stroke="#fff" stroke-width="1.7" stroke-linecap="round"/>
+  <text x="54" y="173" font-size="12" font-weight="650" fill="#fff">New conversation</text>
+  <rect x="18" y="202" width="222" height="36" rx="8" fill="#0D1728" stroke="#253149"/>
+  <circle cx="34" cy="218" r="5" fill="none" stroke="#77839B" stroke-width="1.4"/>
+  <path d="m38 222 4 4" stroke="#77839B" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="50" y="222" class="small muted">Search conversations</text>
+  <text x="22" y="271" class="label dim">RECENT</text>
+  <rect x="13" y="284" width="232" height="45" rx="8" fill="#182239"/>
+  <rect x="13" y="284" width="2.5" height="45" rx="1.2" fill="#8B7CFF"/>
+  <path d="M29 301h13M29 306h10M29 311h12" stroke="#A6B0C7" stroke-width="1.3" stroke-linecap="round"/>
+  <text x="51" y="303" font-size="11.5" font-weight="600">Refresh token validation</text>
+  <text x="51" y="318" font-size="10" class="muted">Today · 12:42 PM</text>
+  <path d="M29 350h13M29 355h10M29 360h12" stroke="#65718B" stroke-width="1.3" stroke-linecap="round"/>
+  <text x="51" y="352" class="small muted">How are routes protected?</text>
+  <text x="51" y="367" font-size="10" class="dim">Yesterday</text>
+  <path d="M29 399h13M29 404h10M29 409h12" stroke="#65718B" stroke-width="1.3" stroke-linecap="round"/>
+  <text x="51" y="401" class="small muted">Where is config loaded?</text>
+  <text x="51" y="416" font-size="10" class="dim">Nov 18</text>
+  <path d="M22 900h216" stroke="#273149"/>
+  <circle cx="39" cy="927" r="14" fill="#26324B"/>
+  <text x="39" y="931" text-anchor="middle" font-size="9" font-weight="700">EL</text>
+  <text x="62" y="925" class="small" font-weight="600">Eli</text>
+  <text x="62" y="940" font-size="10" class="muted">Personal account</text>
+  <circle cx="222" cy="927" r="1.7" fill="#9AA5BB"/>
+  <circle cx="228" cy="927" r="1.7" fill="#9AA5BB"/>
+  <circle cx="234" cy="927" r="1.7" fill="#9AA5BB"/>
+
+  <!-- Main conversation -->
+  <rect x="260" y="71" width="880" height="888" fill="#0D1423"/>
+  <path d="M260 151H1140" stroke="#222D43"/>
+  <text x="292" y="108" class="small muted">Workspace</text>
+  <path d="m353 103 3 3-3 3" fill="none" stroke="#68758E" stroke-width="1.2"/>
+  <text x="366" y="108" class="small muted">payments-api</text>
+  <rect x="292" y="119" width="60" height="20" rx="6" fill="#151F32"/>
+  <circle cx="304" cy="129" r="3" fill="#A99EFF"/>
+  <text x="312" y="133" font-size="10" class="muted">main</text>
+  <text x="369" y="134" font-size="10" class="dim">Conversation · Today</text>
+  <rect x="987" y="101" width="132" height="30" rx="8" fill="#121F22" stroke="#28423D"/>
+  <circle cx="1003" cy="116" r="3.5" fill="#49D6A3"/>
+  <text x="1013" y="120" font-size="10.5" fill="#8EE4C2">Index up to date</text>
+
+  <text x="292" y="185" class="title">How are refresh tokens validated?</text>
+  <text x="292" y="207" class="small muted">Answers grounded in the selected repository</text>
+
+  <rect x="472" y="229" width="636" height="59" rx="14" fill="#19243A" stroke="#2B3852"/>
+  <text x="1084" y="263" text-anchor="end" class="body">How does the API validate a refresh token?</text>
+  <circle cx="1090" cy="250" r="10" fill="#33415F"/>
+  <text x="1090" y="254" text-anchor="middle" font-size="8" font-weight="700">EL</text>
+
+  <rect x="292" y="316" width="26" height="26" rx="8" fill="url(#brand)"/>
+  <path d="M299 323h6a3 3 0 0 1 0 6h-6v-6Zm0 6h7a3 3 0 0 1 0 6h-7v-6Z" fill="#101426"/>
+  <text x="327" y="328" class="small" font-weight="650">RepoGuide</text>
+  <text x="399" y="328" font-size="10" class="muted">· Answered from code</text>
+  <text x="292" y="367" class="body">The refresh token is checked in <tspan fill="#B8ADFF" font-family="Consolas, monospace">JwtAuthGuard</tspan> before the request</text>
+  <text x="292" y="391" class="body">reaches its controller. The guard verifies the token signature and</text>
+  <text x="292" y="415" class="body">expiration, then attaches the decoded user claims to the request.</text>
+
+  <rect x="292" y="438" width="590" height="54" rx="9" fill="#111B2D" stroke="#2B3852"/>
+  <rect x="305" y="451" width="27" height="27" rx="7" fill="#19263A"/>
+  <path d="M312 457h8l3 3v11h-11v-14Zm7 0v4h4" fill="none" stroke="#A6B4D2" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="342" y="461" font-size="11" font-family="Consolas, monospace" fill="#BFB7FF">src/auth/jwt-auth.guard.ts</text>
+  <text x="342" y="478" font-size="10" class="muted">Lines 18–42</text>
+  <path d="m857 459 4 4-4 4" fill="none" stroke="#74819A" stroke-width="1.4"/>
+
+  <text x="292" y="531" class="body">The token is also checked against the account state. If it is expired</text>
+  <text x="292" y="555" class="body">or invalid, the guard rejects the request with an unauthorized response.</text>
+  <rect x="292" y="578" width="590" height="54" rx="9" fill="#111B2D" stroke="#2B3852"/>
+  <rect x="305" y="591" width="27" height="27" rx="7" fill="#19263A"/>
+  <path d="M312 597h8l3 3v11h-11v-14Zm7 0v4h4" fill="none" stroke="#A6B4D2" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="342" y="601" font-size="11" font-family="Consolas, monospace" fill="#BFB7FF">src/auth/auth.service.ts</text>
+  <text x="342" y="618" font-size="10" class="muted">Lines 74–91</text>
+  <path d="m857 599 4 4-4 4" fill="none" stroke="#74819A" stroke-width="1.4"/>
+  <rect x="292" y="651" width="171" height="26" rx="13" fill="#111A2A" stroke="#26334A"/>
+  <circle cx="307" cy="664" r="4" fill="#51D8A5"/>
+  <text x="317" y="668" font-size="10" class="muted">2 sources · main @ 8f2c1a</text>
+
+  <rect x="292" y="710" width="816" height="126" rx="15" fill="#111A2A" stroke="#34415A" filter="url(#shadow)"/>
+  <text x="316" y="743" class="body muted">Ask a question about this codebase...</text>
+  <path d="M316 760H1084" stroke="#27334A"/>
+  <rect x="315" y="785" width="27" height="27" rx="8" fill="#19243A"/>
+  <path d="M324 791h9M324 796h9M324 801h6" stroke="#9DAAC4" stroke-width="1.2" stroke-linecap="round"/>
+  <text x="352" y="803" font-size="10" class="muted">Sources from indexed code only</text>
+  <rect x="1048" y="782" width="38" height="32" rx="9" fill="url(#button)"/>
+  <path d="m1060 798 14-7-5 14-2-5-7-2Z" fill="none" stroke="#fff" stroke-width="1.3" stroke-linejoin="round"/>
+  <text x="292" y="862" font-size="10" class="dim">AI can make mistakes. Verify answers using the linked code sources.</text>
+
+  <!-- Repository details -->
+  <rect x="1140" y="71" width="299" height="888" fill="#0B1220"/>
+  <path d="M1140 71v888" stroke="#273149"/>
+  <text x="1165" y="108" font-size="13" font-weight="650">Repository</text>
+  <path d="M1165 125H1414" stroke="#222D43"/>
+  <rect x="1165" y="145" width="34" height="34" rx="10" fill="#202C43"/>
+  <path d="M1173 155h9l5 5h-14v11h19v-11" fill="none" stroke="#B4C0D8" stroke-width="1.4" stroke-linejoin="round"/>
+  <text x="1208" y="158" font-size="12" font-weight="650">acme / payments-api</text>
+  <text x="1208" y="175" font-size="10" class="muted">Private · TypeScript</text>
+  <rect x="1165" y="197" width="249" height="115" rx="11" fill="#101A2B" stroke="#26334A"/>
+  <text x="1180" y="220" class="label muted">INDEX STATUS</text>
+  <circle cx="1186" cy="243" r="4" fill="#49D6A3"/>
+  <text x="1198" y="247" class="small" font-weight="600">Up to date</text>
+  <text x="1180" y="271" font-size="10" class="muted">Last indexed 12 minutes ago</text>
+  <text x="1180" y="290" font-size="10" class="dim">main · 8f2c1a7</text>
+  <rect x="1165" y="322" width="249" height="35" rx="9" fill="#172239" stroke="#34415B"/>
+  <path d="M1181 340a7 7 0 1 1 2 5M1180 335v5h5" fill="none" stroke="#B9B2FF" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="1198" y="344" font-size="11" font-weight="600">Refresh index</text>
+  <text x="1165" y="393" class="label dim">REPOSITORY DETAILS</text>
+  <text x="1165" y="421" font-size="10" class="muted">Default branch</text>
+  <text x="1398" y="421" text-anchor="end" font-size="10" font-family="Consolas, monospace">main</text>
+  <path d="M1165 433H1414" stroke="#202B40"/>
+  <text x="1165" y="456" font-size="10" class="muted">Indexed files</text>
+  <text x="1398" y="456" text-anchor="end" font-size="10">1,284</text>
+  <path d="M1165 468H1414" stroke="#202B40"/>
+  <text x="1165" y="491" font-size="10" class="muted">Access</text>
+  <rect x="1350" y="477" width="64" height="21" rx="10.5" fill="#142D29"/>
+  <text x="1382" y="491" text-anchor="middle" font-size="9" fill="#81DCC0">Read only</text>
+  <text x="1165" y="538" class="label dim">SUGGESTED QUESTIONS</text>
+  <rect x="1165" y="552" width="249" height="44" rx="9" fill="#101A2B" stroke="#222E43"/>
+  <text x="1180" y="570" font-size="10.5" class="muted">Where is authentication handled?</text>
+  <path d="m1397 568 4 4-4 4" fill="none" stroke="#707C94" stroke-width="1.2"/>
+  <rect x="1165" y="605" width="249" height="44" rx="9" fill="#101A2B" stroke="#222E43"/>
+  <text x="1180" y="623" font-size="10.5" class="muted">How are API errors formatted?</text>
+  <path d="m1397 621 4 4-4 4" fill="none" stroke="#707C94" stroke-width="1.2"/>
+  <rect x="1165" y="658" width="249" height="44" rx="9" fill="#101A2B" stroke="#222E43"/>
+  <text x="1180" y="676" font-size="10.5" class="muted">Summarize the data model</text>
+  <path d="m1397 674 4 4-4 4" fill="none" stroke="#707C94" stroke-width="1.2"/>
+  <rect x="1165" y="892" width="249" height="43" rx="9" fill="#101A2B" stroke="#26334A"/>
+  <circle cx="1182" cy="913" r="4" fill="#55D9A6"/>
+  <text x="1194" y="910" font-size="10" font-weight="600">Read-only mode</text>
+  <text x="1194" y="924" font-size="9" class="muted">Project commands are never run</text>
+</svg>
